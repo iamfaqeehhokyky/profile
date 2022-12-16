@@ -1,0 +1,119 @@
+/* Add your styles here */
+body {
+    color: #40514E;
+    margin: auto 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-size: 150%;
+}
+h1 {
+    color: #66BFBF;
+    font-size: 60px;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Merriweather', san-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', san-serif;
+}
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+span {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 190px;
+    top: 10px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+}
+.profile, .contact-me {
+    margin: 100px auto;
+    width: 50%;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 5%;
+}
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.html-class {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.css-class {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+.html {
+    color: #11999E;
+}
+.python-desc, .html-desc {
+    clear: left;
+}
+.css-desc {
+    clear: right;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px;
+    margin: 50px auto 0;
+}
+.btn {
+   background: #3D94F6;
+   border-radius: 20px;
+   height: 23px;
+   line-height: 23px;
+   color: #FFFFFF;
+   width: 173px;
+   font-size: 21px;
+   font-weight: 400;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #1E62D0;
+   border-radius: 20px;
+   text-decoration: none;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.footer-link{
+    color: #1E62D0;
+}
+.copyright{
+    color: #40514E;
+    font-size: 0.95rem;
+}
